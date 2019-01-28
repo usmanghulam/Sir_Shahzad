@@ -1,0 +1,651 @@
+@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);@import url(https://fonts.googleapis.com/css?family=Noto+Serif);@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);@import url(https://fonts.googleapis.com/css?family=Monoton|Passion+One);.navbarClass {
+  height: 80px;
+  padding-top: 10px; }
+
+@media screen and (max-width: 762px) {
+  .navbar-btn {
+    width: 80px;
+    height: 35px;
+    border-radius: 30px;
+    background: #33495d !important;
+    color: #fff;
+    font-family: "Noto Sans", sans-serif;
+    right: 50px !important;
+    top: -50px !important;
+    font-weight: bold;
+    position: relative; }
+    .navbar-btn a {
+      color: #fff; }
+  .navbarClass {
+    height: auto;
+    padding: 0 !important; } }
+
+.navbar {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold; }
+  .navbar a {
+    color: #33495d; }
+    .navbar a:hover {
+      background: none !important; }
+    .navbar a:focus {
+      background: none !important; }
+  .navbar .navbar-brand .logo-bird {
+    background: inherit;
+    color: #eb5155;
+    width: 60px;
+    height: 60px;
+    margin-top: -10px;
+    background: none;
+    color: #eb5155 !important; }
+  .navbar .navbar-btn {
+    width: 80px;
+    height: 35px;
+    border-radius: 30px;
+    background: #33495d !important;
+    color: #fff;
+    font-family: "Noto Sans", sans-serif;
+    margin-left: 20px;
+    font-weight: bold; }
+    .navbar .navbar-btn a {
+      color: #fff; }
+
+header {
+  user-select: none; }
+  header .RelativeParentDiv {
+    position: relative;
+    width: 1365px;
+    height: 100vh;
+    overflow: hidden;
+    left: 0; }
+    header .RelativeParentDiv .containerDiv {
+      width: 1250px;
+      left: 65px;
+      height: 100vh;
+      position: absolute;
+      flex-direction: row; }
+      header .RelativeParentDiv .containerDiv .headerLeftText {
+        width: 250px;
+        height: 230px;
+        top: 330px;
+        position: absolute;
+        display: inline-block;
+        left: 3%;
+        text-align: center; }
+        header .RelativeParentDiv .containerDiv .headerLeftText h2 {
+          font-family: "Noto Sans", sans-serif;
+          font-size: 20px !important;
+          color: #33495d;
+          line-height: 1.6;
+          z-index: -1; }
+        header .RelativeParentDiv .containerDiv .headerLeftText .btn {
+          width: 180px;
+          height: 50px;
+          border-radius: 30px;
+          background: none;
+          border: 2px solid #eb5155;
+          font-weight: bold;
+          color: #eb5155;
+          outline: none;
+          text-transform: uppercase;
+          transition: all .25s ease-out; }
+          header .RelativeParentDiv .containerDiv .headerLeftText .btn .btnright {
+            opacity: 0;
+            transition: all .25s ease-out; }
+          header .RelativeParentDiv .containerDiv .headerLeftText .btn:hover .btnright {
+            opacity: 1;
+            color: #fff;
+            padding-left: 7px; }
+          header .RelativeParentDiv .containerDiv .headerLeftText .btn:hover {
+            background: #eb5155;
+            color: #fff;
+            letter-spacing: 1.1px; }
+      header .RelativeParentDiv .containerDiv .headerCenterImage .centerInsideDiv {
+        width: 500px;
+        display: inline-block;
+        height: 480px;
+        right: 370px;
+        top: 200px;
+        position: absolute;
+        animation: upDown 25s infinite ease-out; }
+        header .RelativeParentDiv .containerDiv .headerCenterImage .centerInsideDiv:before {
+          content: '';
+          position: absolute;
+          width: 15px;
+          height: 15px;
+          border: 1px solid #eb5155;
+          border-radius: 50%;
+          top: 108px;
+          left: 10px;
+          z-index: 1;
+          animation: big 10s infinite;
+          transition: all 10s;
+          cursor: pointer; }
+
+@keyframes big {
+  0% {
+    transform: scale(1.4); }
+  10% {
+    transform: scale(1); }
+  15% {
+    transform: scale(1.4); }
+  20% {
+    transform: scale(1); }
+  25% {
+    transform: scale(1.4); }
+  30% {
+    transform: scale(1); }
+  35% {
+    transform: scale(1.4); }
+  40% {
+    transform: scale(1); }
+  45% {
+    transform: scale(1.4); }
+  50% {
+    transform: scale(1); }
+  55% {
+    transform: scale(1.4); }
+  60% {
+    transform: scale(1); }
+  65% {
+    transform: scale(1.4); }
+  70% {
+    transform: scale(1); }
+  75% {
+    transform: scale(1.4); }
+  80% {
+    transform: scale(1); }
+  85% {
+    transform: scale(1.4); }
+  90% {
+    transform: scale(1); }
+  95% {
+    transform: scale(1.4); }
+  100% {
+    transform: scale(1); } }
+        header .RelativeParentDiv .containerDiv .headerCenterImage .centerInsideDiv:after {
+          content: '';
+          position: absolute;
+          width: 15px;
+          height: 15px;
+          border: 1px solid #eb5155;
+          border-radius: 50%;
+          top: 250px;
+          left: 310px;
+          z-index: 1;
+          animation: big1 10s infinite;
+          cursor: pointer; }
+
+@keyframes big1 {
+  0% {
+    transform: scale(1.4); }
+  10% {
+    transform: scale(1); }
+  15% {
+    transform: scale(1.4); }
+  20% {
+    transform: scale(1); }
+  25% {
+    transform: scale(1.4); }
+  30% {
+    transform: scale(1); }
+  35% {
+    transform: scale(1.4); }
+  40% {
+    transform: scale(1); }
+  45% {
+    transform: scale(1.4); }
+  50% {
+    transform: scale(1); }
+  55% {
+    transform: scale(1.4); }
+  60% {
+    transform: scale(1); }
+  65% {
+    transform: scale(1.4); }
+  70% {
+    transform: scale(1); }
+  75% {
+    transform: scale(1.4); }
+  80% {
+    transform: scale(1); }
+  85% {
+    transform: scale(1.4); }
+  90% {
+    transform: scale(1); }
+  95% {
+    transform: scale(1.4); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes upDown {
+  0% {
+    top: 10vh; }
+  5% {
+    top: 18vh; }
+  10% {
+    top: 10vh; }
+  15% {
+    top: 18vh; }
+  20% {
+    top: 10vh; }
+  25% {
+    top: 18vh; }
+  30% {
+    top: 10vh; }
+  35% {
+    top: 18vh; }
+  40% {
+    top: 10vh; }
+  45% {
+    top: 18vh; }
+  50% {
+    top: 10vh; }
+  55% {
+    top: 18vh; }
+  60% {
+    top: 10vh; }
+  65% {
+    top: 18vh; }
+  70% {
+    top: 10vh; }
+  75% {
+    top: 18vh; }
+  80% {
+    top: 18vh; }
+  85% {
+    top: 10vh; }
+  90% {
+    top: 18vh; }
+  95% {
+    top: 10vh; }
+  100% {
+    top: 18vh; } }
+        header .RelativeParentDiv .containerDiv .headerCenterImage .centerInsideDiv img {
+          width: 100%;
+          height: 100%; }
+      header .RelativeParentDiv .containerDiv .headerRightText {
+        width: 250px;
+        height: 230px;
+        top: 330px;
+        display: inline-block;
+        position: absolute;
+        right: 3px;
+        text-align: center; }
+        header .RelativeParentDiv .containerDiv .headerRightText img {
+          border: 1px solid #eb5155;
+          border-radius: 50%;
+          margin-bottom: 10px; }
+        header .RelativeParentDiv .containerDiv .headerRightText h2 {
+          font-family: "Noto Sans", sans-serif;
+          font-size: 20px !important;
+          color: #33495d;
+          line-height: 1.6; }
+          header .RelativeParentDiv .containerDiv .headerRightText h2 span {
+            color: #eb5155; }
+    header .RelativeParentDiv .upperDiv {
+      width: 700px;
+      height: 100vh;
+      position: absolute;
+      z-index: 2;
+      background: #eb5155;
+      overflow: hidden;
+      transition: all 1s;
+      border-right: 2px solid #eb5155; }
+      header .RelativeParentDiv .upperDiv .mousemove {
+        display: none;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        right: -5px;
+        top: 300px;
+        background: red;
+        z-index: 99;
+        cursor: pointer; }
+      header .RelativeParentDiv .upperDiv .containerDiv2 {
+        width: 1250px;
+        left: 65px;
+        height: 100vh;
+        position: absolute;
+        flex-direction: row;
+        z-index: 2; }
+        header .RelativeParentDiv .upperDiv .containerDiv2 .headerLeftText2 {
+          position: absolute;
+          display: inline-block;
+          width: 250px;
+          height: 230px;
+          top: 330px;
+          left: 3%;
+          text-align: center;
+          z-index: 2; }
+          header .RelativeParentDiv .upperDiv .containerDiv2 .headerLeftText2 h2 {
+            font-family: "Noto Sans", sans-serif;
+            font-size: 20px !important;
+            color: #fff;
+            line-height: 1.6;
+            z-index: 2 !important; }
+          header .RelativeParentDiv .upperDiv .containerDiv2 .headerLeftText2 .btn {
+            width: 180px;
+            height: 50px;
+            border-radius: 30px;
+            background: none;
+            border: 2px solid #fff;
+            font-weight: bold;
+            color: #fff;
+            outline: none;
+            text-transform: uppercase;
+            transition: all .25s ease-out; }
+            header .RelativeParentDiv .upperDiv .containerDiv2 .headerLeftText2 .btn .btnright {
+              opacity: 0;
+              transition: all .25s ease-out; }
+            header .RelativeParentDiv .upperDiv .containerDiv2 .headerLeftText2 .btn:hover .btnright {
+              opacity: 1;
+              color: #eb5155;
+              padding-left: 7px; }
+            header .RelativeParentDiv .upperDiv .containerDiv2 .headerLeftText2 .btn:hover {
+              background: #fff;
+              color: #eb5155;
+              letter-spacing: 1.1px; }
+        header .RelativeParentDiv .upperDiv .containerDiv2 .headerCenterImage2 {
+          z-index: 2; }
+          header .RelativeParentDiv .upperDiv .containerDiv2 .headerCenterImage2 .centerInsideDiv2 {
+            width: 500px;
+            display: inline-block;
+            height: 480px;
+            right: 370px;
+            top: 200px;
+            position: absolute;
+            animation: upDown 25s infinite ease-out;
+            z-index: 2 !important; }
+            header .RelativeParentDiv .upperDiv .containerDiv2 .headerCenterImage2 .centerInsideDiv2:before {
+              content: '';
+              position: absolute;
+              width: 15px;
+              height: 15px;
+              border: 1px solid #fff;
+              border-radius: 50%;
+              top: 108px;
+              left: 10px;
+              z-index: 1;
+              animation: big 10s infinite;
+              transition: all 10s;
+              cursor: pointer; }
+
+@keyframes big {
+  0% {
+    transform: scale(1.4); }
+  10% {
+    transform: scale(1); }
+  15% {
+    transform: scale(1.4); }
+  20% {
+    transform: scale(1); }
+  25% {
+    transform: scale(1.4); }
+  30% {
+    transform: scale(1); }
+  35% {
+    transform: scale(1.4); }
+  40% {
+    transform: scale(1); }
+  45% {
+    transform: scale(1.4); }
+  50% {
+    transform: scale(1); }
+  55% {
+    transform: scale(1.4); }
+  60% {
+    transform: scale(1); }
+  65% {
+    transform: scale(1.4); }
+  70% {
+    transform: scale(1); }
+  75% {
+    transform: scale(1.4); }
+  80% {
+    transform: scale(1); }
+  85% {
+    transform: scale(1.4); }
+  90% {
+    transform: scale(1); }
+  95% {
+    transform: scale(1.4); }
+  100% {
+    transform: scale(1); } }
+            header .RelativeParentDiv .upperDiv .containerDiv2 .headerCenterImage2 .centerInsideDiv2:after {
+              content: '';
+              position: absolute;
+              width: 15px;
+              height: 15px;
+              border: 1px solid #fff;
+              border-radius: 50%;
+              top: 250px;
+              left: 310px;
+              z-index: 1;
+              animation: big1 10s infinite;
+              cursor: pointer; }
+
+@keyframes big1 {
+  0% {
+    transform: scale(1.4); }
+  10% {
+    transform: scale(1); }
+  15% {
+    transform: scale(1.4); }
+  20% {
+    transform: scale(1); }
+  25% {
+    transform: scale(1.4); }
+  30% {
+    transform: scale(1); }
+  35% {
+    transform: scale(1.4); }
+  40% {
+    transform: scale(1); }
+  45% {
+    transform: scale(1.4); }
+  50% {
+    transform: scale(1); }
+  55% {
+    transform: scale(1.4); }
+  60% {
+    transform: scale(1); }
+  65% {
+    transform: scale(1.4); }
+  70% {
+    transform: scale(1); }
+  75% {
+    transform: scale(1.4); }
+  80% {
+    transform: scale(1); }
+  85% {
+    transform: scale(1.4); }
+  90% {
+    transform: scale(1); }
+  95% {
+    transform: scale(1.4); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes upDown {
+  0% {
+    top: 10vh; }
+  5% {
+    top: 18vh; }
+  10% {
+    top: 10vh; }
+  15% {
+    top: 18vh; }
+  20% {
+    top: 10vh; }
+  25% {
+    top: 18vh; }
+  30% {
+    top: 10vh; }
+  35% {
+    top: 18vh; }
+  40% {
+    top: 10vh; }
+  45% {
+    top: 18vh; }
+  50% {
+    top: 10vh; }
+  55% {
+    top: 18vh; }
+  60% {
+    top: 10vh; }
+  65% {
+    top: 18vh; }
+  70% {
+    top: 10vh; }
+  75% {
+    top: 18vh; }
+  80% {
+    top: 18vh; }
+  85% {
+    top: 10vh; }
+  90% {
+    top: 18vh; }
+  95% {
+    top: 10vh; }
+  100% {
+    top: 18vh; } }
+            header .RelativeParentDiv .upperDiv .containerDiv2 .headerCenterImage2 .centerInsideDiv2 img {
+              width: 100%;
+              height: 100%; }
+        header .RelativeParentDiv .upperDiv .containerDiv2 .headerRightText2 {
+          width: 250px;
+          height: 230px;
+          top: 330px;
+          display: inline-block;
+          position: absolute;
+          right: 3px;
+          text-align: center; }
+          header .RelativeParentDiv .upperDiv .containerDiv2 .headerRightText2 img {
+            border: 1px solid #fff;
+            border-radius: 50%;
+            margin-bottom: 10px; }
+          header .RelativeParentDiv .upperDiv .containerDiv2 .headerRightText2 h2 {
+            font-family: "Noto Sans", sans-serif;
+            font-size: 20px !important;
+            color: #fff;
+            line-height: 1.6; }
+            header .RelativeParentDiv .upperDiv .containerDiv2 .headerRightText2 h2 span {
+              color: #fff; }
+
+.strategy {
+  position: relative;
+  padding-top: 150px;
+  background: #33495d;
+  height: auto; }
+  .strategy .iconLeft,
+  .strategy .iconRight {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #fff;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .25s;
+    z-index: 99; }
+    .strategy .iconLeft:hover,
+    .strategy .iconRight:hover {
+      border: 4px solid grey; }
+    .strategy .iconLeft i,
+    .strategy .iconRight i {
+      font-size: 40px;
+      color: black;
+      padding-top: 20px; }
+  .strategy .iconLeft {
+    left: 40px;
+    top: 630px; }
+  .strategy .iconRight {
+    right: 40px;
+    top: 630px; }
+  .strategy .row h1 {
+    font-size: 3vw;
+    font-family: "Monoton", cursive;
+    font-weight: bold;
+    color: #fff; }
+  .strategy .row p {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 1.8vw;
+    color: lightgrey; }
+
+.rowDiv {
+  width: 80%;
+  height: auto;
+  position: relative;
+  left: 10%;
+  overflow: hidden; }
+  .rowDiv .Component2 {
+    width: 3000px;
+    height: 100%;
+    transition: all 1s; }
+    .rowDiv .Component2 .innerDiv {
+      width: 300px;
+      border-radius: 20px;
+      margin-left: 50px;
+      margin-top: 100px;
+      height: 400px;
+      float: left;
+      font-family: "Noto Sans", sans-serif;
+      text-align: center;
+      display: block;
+      background: #fff; }
+      .rowDiv .Component2 .innerDiv .img {
+        width: 80px;
+        height: 80px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: 110px;
+        margin-top: -40px; }
+        .rowDiv .Component2 .innerDiv .img img {
+          width: 100%;
+          height: 100%; }
+      .rowDiv .Component2 .innerDiv .CenterupperaDiv {
+        border-bottom: 1px solid #eb5155; }
+      .rowDiv .Component2 .innerDiv .endDiv .btn {
+        margin-top: -10px;
+        background: #eb5155;
+        color: #fff;
+        bottom: 60px;
+        margin-left: 70px;
+        display: block; }
+
+.Section3 {
+  background: #33495d;
+  height: auto;
+  padding-top: 150px;
+  color: #fff;
+  position: relative; }
+  .Section3 .img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    float: left;
+    padding-right: 20px; }
+    .Section3 .img img {
+      width: 100%;
+      height: 100%; }
+  .Section3 p {
+    display: inline; }
+  .Section3 .headingParagraph {
+    padding-top: 100px; }
+    .Section3 .headingParagraph h1 {
+      font-size: 50px;
+      font-weight: bold;
+      font-family: "Monoton", cursive; }
+    .Section3 .headingParagraph p {
+      text-align: center;
+      font-size: 18px;
+      color: grey; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=styles.css.map*/

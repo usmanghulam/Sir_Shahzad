@@ -1,0 +1,23 @@
+@mixin btn($size){
+    // @if($size: 'lg'){
+    //     width: 80px;
+    //     height: 80px;
+    //     background: $darkGrey;
+    // }
+    @if($size: 'md'){
+        width: 80px;
+        height: 35px;
+        border-radius: 30px;
+        background: $darkGrey !important;
+        color: $white;
+        font-family: $fontLight;
+        a{
+            color: $white;
+        }
+    }
+    // @if($size: 'sm'){
+    //     width: 80px;
+    //     height: 80px;
+    //     background: red;
+    // }
+}

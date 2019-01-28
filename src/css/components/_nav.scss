@@ -1,0 +1,49 @@
+.navbarClass{
+    height: 80px;
+    padding-top: 10px;
+}
+@media screen and (max-width: 762px){
+    .navbar-btn{
+        @include btn('md');
+        right: 50px !important;
+        top: -50px !important;
+        font-weight: bold;
+        position: relative;
+    }
+    .navbarClass{
+        height: auto;
+        padding: 0 !important;
+    }
+}
+.navbar{
+    font-family: $fontLight;
+    font-weight: bold;
+    a{
+        color: $darkGrey;
+        &:hover{
+            background: none !important;
+        }
+        &:focus{
+            background:none !important;
+        }
+    }
+    .navbar-brand{
+        .logo-bird{
+            background: inherit;
+            color: $darkPink;
+            width: 60px;
+            height: 60px;
+            margin-top: -10px;
+            background: none;
+            color: $darkPink !important;
+        }
+    }
+    .navbar-btn{
+        @include btn('md');
+        margin-left: 20px;
+        font-weight: bold;
+    }
+    .nav{
+
+    }
+}

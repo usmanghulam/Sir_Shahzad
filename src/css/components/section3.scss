@@ -1,0 +1,67 @@
+.Section3{
+    background: $darkGrey;
+    height: auto;
+    padding-top: 150px;
+    color: #fff;
+    position: relative;
+    .img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: inline-block;
+        float: left;
+        padding-right: 20px;
+        // margin-top: -10px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    p{
+        display: inline;
+    }
+    .headingParagraph{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        h1{
+            font-size: 50px;
+            font-weight: bold;
+            font-family: $fontBold;
+        }
+        p{
+            text-align: center;
+            font-size: 18px;
+            color: grey;
+        }
+    }
+}
+.row{
+    // background: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .container{
+        .BottomSection{
+            &:hover i{
+                color: black;
+                cursor: pointer;
+            }
+            &:hover h1{
+                color: $darkGrey;
+                cursor: pointer;
+            }
+            i{
+                font-size: 50px;
+                color: $Pink;
+                cursor: pointer;
+                transition: all 0.25s;
+            }
+            h1{
+                font-weight: bold;
+                font-family: $fontBold;
+            }
+            p{
+                font-family: $fontLight;
+            }
+        }
+    }
+}
