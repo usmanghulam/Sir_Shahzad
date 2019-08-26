@@ -13317,7 +13317,7 @@ return jQuery;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(37);
-module.exports = __webpack_require__(80);
+module.exports = __webpack_require__(81);
 
 
 /***/ }),
@@ -36902,6 +36902,8 @@ var _section = __webpack_require__(79);
 
 var _section2 = _interopRequireDefault(_section);
 
+var _footer = __webpack_require__(80);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -37009,6 +37011,31 @@ var App = function (_Component) {
                 }],
                 BigHeading: "Getting started is easy.",
                 btn: "Sing Up For Free"
+            }],
+
+            Footer: [{
+                Heading1: {
+                    h1: "Corporate HQ ->",
+                    h2: "Dubai",
+                    h3: "Lahore",
+                    h4: "London",
+                    h5: "Montreal",
+                    h6: "Singapore",
+                    h7: "Sydney"
+                },
+                Heading2: [{
+                    Info: {
+                        address: "1300 Island Drive Suite 105 Redwood City, CA 94065 USA",
+                        phone: "+1.650.593.5400"
+                    },
+                    h1: "General Inquiries",
+                    p1: "connect@i2cinc.com",
+                    h2: "Sales",
+                    p2: "sales@i2cinc.com",
+                    h3: "Job Opportunities",
+                    p3: "careers@i2cinc.com",
+                    btn: "Submit"
+                }]
             }]
         }, _temp), _possibleConstructorReturn(_this, _ret);
     }
@@ -37022,7 +37049,8 @@ var App = function (_Component) {
                 _react2.default.createElement(_nav2.default, null),
                 _react2.default.createElement(_header2.default, null),
                 _react2.default.createElement(_strategy2.default, { section1: this.state.Component1, section2: this.state.Component2 }),
-                _react2.default.createElement(_section2.default, { section3: this.state.Component3 })
+                _react2.default.createElement(_section2.default, { section3: this.state.Component3 }),
+                _react2.default.createElement(_footer.Footer, { submitSection: this.state.Footer })
             );
         }
     }]);
@@ -40341,7 +40369,7 @@ var section3 = function section3(props) {
             { key: index },
             _react2.default.createElement(
                 "div",
-                { className: "col-md-6" },
+                { className: "col-md-6 BottomSection" },
                 _react2.default.createElement("i", { className: res.icon }),
                 _react2.default.createElement(
                     "h1",
@@ -40362,10 +40390,10 @@ var section3 = function section3(props) {
         section3,
         _react2.default.createElement(
             "div",
-            { className: "container" },
+            { className: "row" },
             _react2.default.createElement(
                 "div",
-                { className: "row" },
+                { className: "container" },
                 FourDivs
             )
         )
@@ -40376,6 +40404,216 @@ exports.default = section3;
 
 /***/ }),
 /* 80 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.Footer = undefined;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Footer = exports.Footer = function Footer(props) {
+    var upperSection1 = props.submitSection.map(function (res, index) {
+        return _react2.default.createElement(
+            'div',
+            { key: index },
+            _react2.default.createElement(
+                'div',
+                { className: 'row upperSection1', style: { margin: '0', padding: '0' } },
+                _react2.default.createElement(
+                    'div',
+                    { className: 'container' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'col-md-3' },
+                        _react2.default.createElement(
+                            'h3',
+                            null,
+                            res.Heading1.h1
+                        ),
+                        _react2.default.createElement(
+                            'h3',
+                            null,
+                            res.Heading1.h2
+                        ),
+                        _react2.default.createElement(
+                            'h3',
+                            null,
+                            res.Heading1.h3
+                        ),
+                        _react2.default.createElement(
+                            'h3',
+                            null,
+                            res.Heading1.h4
+                        ),
+                        _react2.default.createElement(
+                            'h3',
+                            null,
+                            res.Heading1.h5
+                        ),
+                        _react2.default.createElement(
+                            'h3',
+                            null,
+                            res.Heading1.h6
+                        ),
+                        _react2.default.createElement(
+                            'h3',
+                            null,
+                            res.Heading1.h7
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'col-md-3' },
+                        _react2.default.createElement(
+                            'h1',
+                            null,
+                            'Address'
+                        ),
+                        _react2.default.createElement(
+                            'h3',
+                            null,
+                            res.Heading2[0].Info.address
+                        ),
+                        _react2.default.createElement(
+                            'h4',
+                            null,
+                            _react2.default.createElement(
+                                'span',
+                                null,
+                                'Phone no: ',
+                                _react2.default.createElement(
+                                    'span',
+                                    null,
+                                    res.Heading2[0].Info.phone
+                                )
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'h2',
+                            null,
+                            res.Heading2[0].h1
+                        ),
+                        _react2.default.createElement(
+                            'h3',
+                            null,
+                            res.Heading2[0].p1
+                        ),
+                        _react2.default.createElement(
+                            'h2',
+                            null,
+                            res.Heading2[0].h2
+                        ),
+                        _react2.default.createElement(
+                            'h3',
+                            null,
+                            res.Heading2[0].p2
+                        ),
+                        _react2.default.createElement(
+                            'h2',
+                            null,
+                            res.Heading2[0].h3
+                        ),
+                        _react2.default.createElement(
+                            'h3',
+                            null,
+                            res.Heading2[0].p4
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'col-md-6' },
+                        _react2.default.createElement(
+                            'form',
+                            { className: '' },
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'form-group' },
+                                _react2.default.createElement(
+                                    'label',
+                                    null,
+                                    'First Name *'
+                                ),
+                                _react2.default.createElement('input', { type: 'text', className: 'form-control input-lg' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'form-group' },
+                                _react2.default.createElement(
+                                    'label',
+                                    null,
+                                    'Last Name *'
+                                ),
+                                _react2.default.createElement('input', { type: 'text', className: 'form-control input-lg' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'form-group' },
+                                _react2.default.createElement(
+                                    'label',
+                                    null,
+                                    'Company *'
+                                ),
+                                _react2.default.createElement('input', { type: 'text', className: 'form-control input-lg' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'form-group' },
+                                _react2.default.createElement(
+                                    'label',
+                                    null,
+                                    'Email *'
+                                ),
+                                _react2.default.createElement('input', { type: 'text', className: 'form-control input-lg' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'form-group' },
+                                _react2.default.createElement(
+                                    'label',
+                                    null,
+                                    'Phone'
+                                ),
+                                _react2.default.createElement('input', { type: 'text', className: 'form-control input-lg' })
+                            ),
+                            _react2.default.createElement(
+                                'div',
+                                { className: 'form-group' },
+                                _react2.default.createElement(
+                                    'label',
+                                    null,
+                                    'Phone'
+                                ),
+                                _react2.default.createElement('textarea', { className: 'form-control', style: { height: '100px' } }),
+                                _react2.default.createElement(
+                                    'button',
+                                    { className: 'btn btn-block btn-danger', style: { marginTop: '40px !important' } },
+                                    res.Heading2[0].btn
+                                )
+                            )
+                        )
+                    )
+                )
+            )
+        );
+    });
+    return _react2.default.createElement(
+        'div',
+        null,
+        upperSection1
+    );
+};
+
+/***/ }),
+/* 81 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
